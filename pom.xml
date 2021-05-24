@@ -325,19 +325,6 @@
       <build>
         <pluginManagement>
           <plugins>
-<plugin>
-    <artifactId>maven-war-plugin</artifactId>
-    <configuration>
-        <attachClasses>true</attachClasses>
-        <webXml>target/web.xml</webXml>
-        <webResources>
-            <resource>
-                <directory>src/main/webapp</directory>
-                <filtering>true</filtering>
-            </resource>
-        </webResources>
-    </configuration>
-</plugin>
             <!-- This plugin's configuration is used to store Eclipse m2e settings
    only. It has no influence on the Maven build itself. -->
             <plugin>
