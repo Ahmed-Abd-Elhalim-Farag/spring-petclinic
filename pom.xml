@@ -35,11 +35,12 @@
 
   <dependencies>
 
-</dependency>
+
       <dependency>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-war-plugin</artifactId>
     <version>3.3.1</version>
+        </dependency>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
